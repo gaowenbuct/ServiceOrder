@@ -1,5 +1,5 @@
 package com.example.demo.order.service;
 
 public interface OrderService {
-    String sayHi(String name);
+    String sayHi();
 }

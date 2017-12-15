@@ -12,8 +12,8 @@ public class OrderServiceImpl implements OrderService {
     @Value("${server.port}")
     String port;
     @Override
-    public String sayHi(String name) {
+    public String sayHi() {
         log.info("sayHi called");
-        return "Order:Hi "+name+",i am from port:" +port;
+        return "Hi,i am orderService from port:" +port;
     }
 }
